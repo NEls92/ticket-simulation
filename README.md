@@ -54,33 +54,6 @@ Would escalate if DHCP issue persisted.
 
 ----------------------------------------------------------------------------------------------------
 
-Ticket ID: HD-002  
-
-Issue:
-User reports no internet access while connected via Ethernet.
-
-Environment:
-- Windows 11
-- Wired connection
-
-Troubleshooting Steps:
-1. Verified physical cable connection
-2. Ran `ipconfig /all`
-3. Identified APIPA address
-4. Released and renewed IP address
-5. Restarted network adapter
-
-Resolution:
-DHCP lease successfully obtained after adapter reset.
-
-Impact:
-Single user
-
-Notes:
-Would escalate if DHCP issue persisted.
-
-----------------------------------------------------------------------------------------------------
-
 Ticket ID: HD-003  
 
 Issue:
@@ -153,3 +126,98 @@ Single user
 
 Notes:
 Recommended periodic reboots.
+
+----------------------------------------------------------------------------------------------------
+
+Ticket ID: HD-006  
+
+Issue:
+User unable to connect to company VPN.
+
+Environment:
+- Windows 11
+- Remote user
+
+Troubleshooting Steps:
+1. Verified internet connectivity
+2. Confirmed VPN credentials
+3. Restarted VPN client
+4. Reinstalled VPN software
+
+Resolution:
+VPN connection successful after reinstall.
+
+Impact:
+Remote user unable to access resources
+
+
+----------------------------------------------------------------------------------------------------
+
+Ticket ID: HD-008  
+
+Issue:
+USB flash drive not recognized when plugged in.
+
+Environment:
+- Windows 10
+
+Troubleshooting Steps:
+1. Tested USB device on another PC
+2. Checked Device Manager
+3. Updated USB controller drivers
+4. Tried alternate USB port
+
+Resolution:
+USB recognized after driver update.
+
+Impact:
+Single user
+
+----------------------------------------------------------------------------------------------------
+
+Ticket ID: HD-009  
+
+Issue:
+Request to create a new user account.
+
+Environment:
+- Active Directory
+
+Troubleshooting Steps:
+1. Created user account in AD
+2. Assigned appropriate security groups
+3. Set initial password
+4. Verified login access
+
+Resolution:
+User account created and ready for use.
+
+Impact:
+New employee onboarding
+
+----------------------------------------------------------------------------------------------------
+
+Ticket ID: HD-010  
+
+Issue:
+User reported a suspicious email requesting login credentials.
+
+Environment:
+- Office 365
+
+Troubleshooting Steps:
+1. Reviewed email headers
+2. Confirmed phishing indicators
+3. Instructed user not to click links
+4. Reported email to security team
+5. Deleted email from inbox
+
+Resolution:
+Phishing email mitigated with no user impact.
+
+Impact:
+Potential security risk
+
+Notes:
+User completed security awareness reminder.
+
