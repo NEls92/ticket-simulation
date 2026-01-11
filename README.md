@@ -25,34 +25,7 @@ Single user, unable to work
 Notes:
 Advised user to update saved credentials on mobile device.
 
-
-
-Ticket ID: HD-002  
-
-Issue:
-User reports no internet access while connected via Ethernet.
-
-Environment:
-- Windows 11
-- Wired connection
-
-Troubleshooting Steps:
-1. Verified physical cable connection
-2. Ran `ipconfig /all`
-3. Identified APIPA address
-4. Released and renewed IP address
-5. Restarted network adapter
-
-Resolution:
-DHCP lease successfully obtained after adapter reset.
-
-Impact:
-Single user
-
-Notes:
-Would escalate if DHCP issue persisted.
-
-
+----------------------------------------------------------------------------------------------------
 
 Ticket ID: HD-002  
 
@@ -79,7 +52,34 @@ Single user
 Notes:
 Would escalate if DHCP issue persisted.
 
+----------------------------------------------------------------------------------------------------
 
+Ticket ID: HD-002  
+
+Issue:
+User reports no internet access while connected via Ethernet.
+
+Environment:
+- Windows 11
+- Wired connection
+
+Troubleshooting Steps:
+1. Verified physical cable connection
+2. Ran `ipconfig /all`
+3. Identified APIPA address
+4. Released and renewed IP address
+5. Restarted network adapter
+
+Resolution:
+DHCP lease successfully obtained after adapter reset.
+
+Impact:
+Single user
+
+Notes:
+Would escalate if DHCP issue persisted.
+
+----------------------------------------------------------------------------------------------------
 
 Ticket ID: HD-003  
 
@@ -105,7 +105,7 @@ Single user
 Notes:
 User confirmed email flow restored.
 
-
+----------------------------------------------------------------------------------------------------
 
 Ticket ID: HD-004  
 
@@ -128,7 +128,7 @@ Printer returned online and printed test page.
 Impact:
 Single user
 
-
+----------------------------------------------------------------------------------------------------
 
 Ticket ID: HD-005  
 
